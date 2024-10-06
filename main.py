@@ -1,4 +1,4 @@
-from lib import cuadrado, triangulo, rectangulo
+from lib import cuadrado, triangulo, rectangulo, circunferencia
 
 
 print("Proyecto figuras")
@@ -21,3 +21,6 @@ print(f"El area de un {rectangulo.get_identificador()} de base {base}\
         y altura {altura} es: {rectangulo.get_area(base,altura)}\
         y el perímetro es {rectangulo.get_perimetro(base, altura)}")
 
+
+radio = 3
+print(f"El area de una circunferencia de radio 3 es {circunferencia.get_area(radio)}")
